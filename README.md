@@ -73,6 +73,7 @@ top -b -n1 | head -15 && free -h && df -h && du -sh /home/*
 who && w && last && getent passwd 
 ![Users](screenshots/users.png)
 getent group
+
 ![Groups](screenshots/groups.png)
 
 ### Services & Processes
