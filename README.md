@@ -58,9 +58,9 @@ chmod +x server_monitor.sh nginx_auto_restart.sh
 
 ## Setup cron for automation
 crontab -e
-# Add:
-*/2 * * * * /home/ubuntu/server_monitor.sh >> /home/ubuntu/server_monitor_cron.log 2>&1
-*/2 * * * * /home/ubuntu/nginx_auto_restart.sh >> /home/ubuntu/nginx_auto_restart_cron.log 2>&1
+# Add
+- */2 * * * * /home/ubuntu/server_monitor.sh >> /home/ubuntu/server_monitor_cron.log 2>&1
+- */2 * * * * /home/ubuntu/nginx_auto_restart.sh >> /home/ubuntu/nginx_auto_restart_cron.log 2>&1
 
 ---
 
