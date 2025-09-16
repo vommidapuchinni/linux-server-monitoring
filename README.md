@@ -23,7 +23,6 @@ This project also demonstrates **creating Linux users and groups**, which is ess
 
 ### 1. Create Groups
 
-```bash
 sudo groupadd developers
 sudo groupadd testers
 
