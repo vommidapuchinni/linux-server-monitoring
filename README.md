@@ -47,11 +47,16 @@ exit             # back to main user
 
 ---
 
-## Make scripts executable: chmod +x server_monitor.sh nginx_auto_restart.sh
+## Make scripts executable: 
+chmod +x server_monitor.sh nginx_auto_restart.sh
+
+---
 
 ## Test manually: 
 ./server_monitor.sh
 ./nginx_auto_restart.sh
+
+---
 
 ## Setup cron for automation:
 crontab -e
@@ -59,8 +64,9 @@ crontab -e
 */2 * * * * /home/ubuntu/server_monitor.sh >> /home/ubuntu/server_monitor_cron.log 2>&1
 */2 * * * * /home/ubuntu/nginx_auto_restart.sh >> /home/ubuntu/nginx_auto_restart_cron.log 2>&1
 
-## Outcome
+---
 
+## Outcome
 1. Automated Linux server monitoring and alerts
 2. NGINX self-healing with auto-restart
 3. Team-based Linux user/group setup demonstrating DevOps best practices
