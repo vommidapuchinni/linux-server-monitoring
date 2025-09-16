@@ -47,18 +47,16 @@ exit             # back to main user
 
 ---
 
-## Make scripts executable: 
+## Make scripts executable
 chmod +x server_monitor.sh nginx_auto_restart.sh
 
----
-
-## Test manually: 
+## Test manually
 ./server_monitor.sh
 ./nginx_auto_restart.sh
 
 ---
 
-## Setup cron for automation:
+## Setup cron for automation
 crontab -e
 # Add:
 */2 * * * * /home/ubuntu/server_monitor.sh >> /home/ubuntu/server_monitor_cron.log 2>&1
