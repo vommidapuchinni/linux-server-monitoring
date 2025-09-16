@@ -101,7 +101,7 @@ Install NGINX
 ![Nginx installation](screenshots/nginx-installation.png)
 Verify active and stopped states
 ![Nginx active](screenshots/nginx-active.png)
-![Nginx inactive](screenshots/.nginx-stoppedandinactive.png)
+![Nginx inactive](screenshots/nginx-stoppedandinactive.png)
 
 ## ⏱️ Step 4: Bash Scripts
 ### server_monitor.sh
