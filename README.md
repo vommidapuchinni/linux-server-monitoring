@@ -1,4 +1,4 @@
-# Linux Server Monitoring & Auto-Restart Project
+ # Linux Server Monitoring & Auto-Restart Project
 
 This project demonstrates an automated server monitoring system using **Linux commands, Bash scripting, and cron**. It includes:
 
@@ -34,11 +34,11 @@ getent group testers → Verify group exists
 
 #### Developer user
 sudo useradd -m -s /bin/bash -G developers dev1
-sudo passwd dev1       # set password
+sudo passwd dev1                                              # set password
 
 #### Tester user
 sudo useradd -m -s /bin/bash -G testers test1
-sudo passwd test1      # set password
+sudo passwd test1                                              # set password
 
 ### 3. Test Users
 sudo su - dev1   # switch to dev1
